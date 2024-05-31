@@ -1,19 +1,33 @@
 # streaming-05-smart-smoker
 
 Before you Begin:
+
 Fork this starter repo into your GitHub.
+
 Clone your repo down to your machine.
+
 View / Command Palette - then Python: Select Interpreter
+
 Select your conda environment.
+
 Make sure to import pike or copy the file from a previous module
+
 Task 1. Create a Place to Work
+
 In GitHub, create a new repo for your project - name it streaming-05-smart-smoker.
+
 Add a README.md during the creation process. (If not, you can always add it later.)
+
 Clone your repo down to your machine.
+
 In VS Code, add a .gitignore (use one from an earlier module), start working on the README.md. Create it if you didn't earlier.
+
 Add the csv data file to your repo.
+
 Create a file for your bbq producer.
+
 Task 2. Design and Implement Your Producer
+
 Here's how the code works:
 
 Imports: The script imports necessary libraries such as csv, pika (RabbitMQ client library), sys, webbrowser, and traceback.
