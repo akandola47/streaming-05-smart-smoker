@@ -45,6 +45,9 @@ For each row in the CSV file, it extracts the timestamp, smoker temperature, foo
 If the smoker temperature is available (not empty), it converts it to a float and sends a message to the "01-smoker" queue.
 Similarly, if food A or food B temperatures are available, it converts them to float and sends messages to the respective queues.
 If any errors occur during these operations, they are caught and logged with detailed traceback information.
+
+<img width="1911" alt="Screenshot 2024-06-07 at 1 11 20 PM" src="https://github.com/akandola47/streaming-05-smart-smoker/assets/143216836/caf79fea-b2d6-4282-8442-67c4332ac114">
+
 Send Message: The send_message() function is responsible for publishing a message to the specified RabbitMQ queue. It takes parameters channel, queue_name, and message, where channel is the communication channel to RabbitMQ, queue_name is the name of the queue to publish the message to, and message is the content of the message to be sent.
 
 Main Block: Finally, in the main block, the script offers to open the RabbitMQ Admin site and then calls the main_work() function to perform the necessary tasks.
