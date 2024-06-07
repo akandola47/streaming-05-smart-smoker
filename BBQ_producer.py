@@ -38,7 +38,7 @@ def main_work():
             channel.queue_declare(queue=queue_name, durable=True)
 
         # Process CSV and send messages to RabbitMQ queues
-        csv_file_path = "/Users/Muffinman/Documents/streaming-05-smart-smoker/smoker-temps (1).csv"
+        csv_file_path = "/Users/muffinman/Desktop/STREAMING DATA/streaming-05-smart-smoker/smoker-temps.csv"
         with open(csv_file_path, newline='', encoding='utf-8-sig') as csvfile:
             reader = csv.DictReader(csvfile)
             for data_row in reader:
