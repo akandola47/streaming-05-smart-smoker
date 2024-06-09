@@ -51,3 +51,5 @@ If any errors occur during these operations, they are caught and logged with det
 Send Message: The send_message() function is responsible for publishing a message to the specified RabbitMQ queue. It takes parameters channel, queue_name, and message, where channel is the communication channel to RabbitMQ, queue_name is the name of the queue to publish the message to, and message is the content of the message to be sent.
 
 Main Block: Finally, in the main block, the script offers to open the RabbitMQ Admin site and then calls the main_work() function to perform the necessary tasks.
+<img width="974" alt="Screenshot 2024-06-09 at 2 19 34 PM" src="https://github.com/akandola47/streaming-05-smart-smoker/assets/143216836/1cb0d54b-4138-4651-aeb4-d0defec8e64e">
+
